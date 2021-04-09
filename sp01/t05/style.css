@@ -1,0 +1,68 @@
+body{
+width: 100%;
+height: 100%;
+}
+.container{
+    padding: 0px;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    font-size: 12px;
+    color: white;
+    text-align: right;
+}
+
+p{
+    color: rgba(255,255,255,0.5);
+    font-size: 9px;
+    text-align: right;
+}
+div{
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    font-style: 'verdana';
+    margin: 30px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 0 auto;
+    margin-bottom: 0px;
+    float: left;
+    
+}
+
+
+img{
+    height: 182px;
+    display: block;
+    float: left;  
+    position: relative;
+    align-items:baseline;
+    margin-top: 5px;
+}
+
+.Cap{
+
+    background-image:linear-gradient(#4568DC,#B06AB3) ;
+}
+
+.Iron{
+    
+    background-image:linear-gradient(#e52d27,#b31217) ;
+}
+
+.Black{
+    
+    background-image: linear-gradient(to right,#000,#61045F);
+}
+
+.spider{
+    
+    background-image: linear-gradient(#e52d27,#000);
+}
+
+

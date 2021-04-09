@@ -1,0 +1,37 @@
+.container{
+    
+    padding: 25px;
+
+}
+
+body{
+    margin-top: 15%;
+}
+
+
+
+.content{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    animation: move 6s linear infinite;
+    border-radius: 50%;
+}
+
+@keyframes move{
+
+    0%{
+        transform: translate(0);
+    }
+
+    50%{
+        transform: translate(1400px);
+    }
+}
+
+.content:hover{
+    background-color: red;
+    transition-duration: 2sec;
+}
+
+

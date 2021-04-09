@@ -1,0 +1,52 @@
+table{
+    border-collapse: collapse;
+}
+
+table th{
+    padding: 6px;
+    margin:4px;
+}
+table, td{
+    border: 2px solid white;
+    padding: 8px;
+    margin: 6px;
+}
+
+img{
+    border-radius: 20%;
+    text-align: center;
+    width:150px;
+    height: 167px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.head{
+    color: white;
+    background-color:black;
+}
+
+.one{
+    background-color: orange;
+   
+}
+
+.two{
+    background-color: green;
+}
+
+.three{
+    background-color: rgb(74, 74, 190);
+}
+
+.four{
+    background-color:yellow;
+}
+
+.five{
+    background-color:red;
+}
+
+.six{
+    background-color: purple;
+}

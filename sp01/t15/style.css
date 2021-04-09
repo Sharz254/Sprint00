@@ -1,0 +1,18 @@
+img{
+    width:100px;
+    
+}
+.glove:hover tr:nth-child(even) td:nth-child(odd){
+    visibility:hidden;
+}
+
+.glove:hover tr:nth-child(odd) td:nth-child(even){
+    visibility:hidden;
+}
+
+.glove:hover +.table1 tr:nth-child(odd) td:nth-child(even ){
+    visibility:hidden;}
+
+.glove:hover +.table1 tr:nth-child(even) td:nth-child(odd){
+    visibility:hidden;
+}

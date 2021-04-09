@@ -1,0 +1,29 @@
+body{
+    background-color: #fff;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.Japan
+{
+    padding:33.33%;
+    background: white;
+    position:relative;
+}
+
+.Japan::before
+{
+    content: "";
+    width: 40%;
+    height: 60%;
+    position:absolute;
+    background-color:#c70025 ;
+    top: 20%;
+    left:30%;
+    border-radius:50% ;
+}
+
+div
+{
+    border: 1px solid black;
+}

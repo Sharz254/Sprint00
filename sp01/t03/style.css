@@ -1,0 +1,38 @@
+
+.search,.submit{
+    float: left;
+    height: 2em;
+}
+
+.search{
+    padding: 10px;
+    width: 400px;
+    border: 2px solid blue;
+    font: normal ;
+    color: green;
+    border-color: blue;
+
+}
+
+.submit{
+    color: green;
+    background-color: rgb(240, 231, 231);
+    padding: 10px;
+    width: 60px;
+    height: 51px;
+    border: 3px solid grey;
+}
+
+input.search{
+    border-color: blue;
+    outline: blue;
+}
+
+.search:hover{
+color: red;
+border-color: blue;
+}
+
+.submit:hover{
+    color: red;
+}

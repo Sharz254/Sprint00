@@ -1,0 +1,36 @@
+.box{
+  display: flex;
+  border: 1px solid white;
+  position: relative;
+  padding: 20px;
+  background-color: lightgrey;
+  justify-content: left;
+  transform: translateY(40px);
+  margin-left: 100px;
+  margin-right: 100px;
+  width: auto;
+}
+
+.box::before, .box::after {
+  content: '';
+  position: absolute;
+  border: solid black;
+}
+
+.box::before {
+  top: 0;
+  right: -25px;
+  bottom: 0;
+  left: -25px;
+  border-width: 1px 0;
+}
+
+.box::after {
+  top: -25px;
+  right: 0;
+  bottom: -25px;
+  left: 0;
+  border-width: 0 1px;
+}
+
+

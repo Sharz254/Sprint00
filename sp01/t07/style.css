@@ -1,0 +1,23 @@
+body{
+    padding:0;
+    margin: 0;
+    background: #fff;
+
+}
+
+.image{
+    display: block;
+    position: fixed;
+    width: 25%;
+    height: 35%;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: -180px 0 0 -180px;
+    -webkit-transition: -webkit-transform 1s;
+}
+.image:hover{
+
+    -webkit-transform: rotate(30deg) translateZ(0);
+}

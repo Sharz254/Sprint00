@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    height: 100% ;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+div{
+  display: inline-block;
+
+       
+}
+
+
+.box:hover{
+
+    box-shadow: 3px 3px 3px 3px rgb(109, 100, 100);
+    
+	      
+}
+
+img{
+    width: 130px;
+    height: 130px;
+    background: white;
+}
+
+h2{
+    font-family: 'lato' bold;
+    background-color: rgba(0, 0, 255, 0.562);
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+
+}
+h3{
+    font: 'lato' ;
+    font: normal;
+    font-size: 2em;
+    font-weight: 400;
+    
+}
